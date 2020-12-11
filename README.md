@@ -15,7 +15,7 @@ tasks:
 Assume that the REST API endpoint is at https://example.com/api/v1/employee and that
 employees have the following JSON structure:
 
-```json
+```python
 {
   name: <string>,
   id: <int>  # Starts at 0, assigned by server on creation.
